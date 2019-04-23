@@ -25,16 +25,15 @@
             <div class="testForm" id="contact1">
             <fieldset>
                     <legend>Personal Info</legend>
-                    <label><span>First Name</span><input name="First" value="" type="text" placeholder="First Name" class="userInput" required pattern="[a-zA-Z0-9]+"></label>
-                    <label><span>Last Name</span> <input name="First" value="" type="text" placeholder="Last Name" class="userInput" required pattern="[a-zA-Z0-9]+"></label>
-                    <label><span>Age</span> <input type="number" name="Age" value="" placeholder="Age" class="userInput"></label><br><br>
+                    <label><span>First Name</span><input name="First" value="" type="text" placeholder="John" class="userInput" required pattern="[a-zA-Z0-9]+"></label>
+                    <label><span>Last Name</span> <input name="First" value="" type="text" placeholder="Smith" class="userInput" required pattern="[a-zA-Z0-9]+"></label>
+                    <label><span>Email</span> <input type="email" name="Email" value="" placeholder="example@email.com" class="userInput"></label><br><br>
           
-                    Select County:
-                    <select name="county">
-                        <option>Utah</option>
-                        <option>Wasatch</option>
-                        <option>Salt Lake</option>
-                        <option>Davis</option>
+                    Select Vacation Package
+                    <select name="package">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
                     </select><br><br>
         
                 </fieldset>
@@ -42,30 +41,26 @@
 
             <div class="testForm" id="contact2">
                     <fieldset>
-                            <legend>Personal Info</legend>
-                            <label><span>First Name</span><input name="First" value="" type="text" placeholder="First Name" class="userInput" required pattern="[a-zA-Z0-9]+"></label>
-                            <label><span>Last Name</span> <input name="First" value="" type="text" placeholder="Last Name" class="userInput" required pattern="[a-zA-Z0-9]+"></label>
-                            <label><span>Age</span> <input type="number" name="Age" value="" placeholder="Age" class="userInput"></label><br><br>
-                  
-                            Select County:
-                            <select name="county">
-                                <option>Utah</option>
-                                <option>Wasatch</option>
-                                <option>Salt Lake</option>
-                                <option>Davis</option>
-                            </select><br><br>
+                        <legend>Additional Info</legend>
+                        How did you find us?<br><br>
+                        <label><input type="radio" name="goal" value="blackbear"> Friend Recomendation</label><br>
+                        <label><input type="radio" name="goal" value="brownbear"> Local Ads</label><br>
+                        <label><input type="radio" name="goal" value="brownbear"> The internet</label><br>
                 
-                        </fieldset>
+                    </fieldset>
             </div>
 
         </div>
-
-        <div class="container">
+        <div class="container" id="commentContainer">
+            <p>Comment Below</p><br>
                 <textarea name="comments" class="textEntry"></textarea>
             </div>
+        <div class="container" id="buttonContainer">
+                <input type="submit" value="Submit" class="button">
+        </div>
 
 
 </body>
-<footer> This page is copyrighted &copy; &bull; by Logan Uibel on Jan. 22, 2019
+<footer> This page is copyrighted &copy; &bull; by Logan Uibel
     </footer>
 </html>
