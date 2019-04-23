@@ -4,6 +4,7 @@ html
 body {
     font-family: 'Comfortaa', cursive;
     height: 100%;
+    background-color: #F7F7F7;
 }
 
 * {
@@ -61,7 +62,6 @@ body {
         margin-bottom: .25rem;
         border-radius: 5px;
         font-weight: 500;
-        text-decoration: none;
     }
 
     nav ul li a:hover {
@@ -276,7 +276,7 @@ iframe {
 }
 
 /*---------------Package Page------------------*/
-@media only screen and (min-width:601px) {
+@media only screen and (min-width:801px) {
     .packageCard {
         width: 100%;
         display: flex;
@@ -297,7 +297,7 @@ iframe {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .packageCard {
         width: 100%;
         display: flex;
@@ -318,6 +318,7 @@ iframe {
         text-align: center;
     }
 }
+
 
 .packageCard h3 {
     text-decoration: underline;
@@ -343,3 +344,78 @@ iframe {
     color: transparent;
 }
 
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: lighter;
+    margin-top: 40vh;
+    bottom: 100%;
+}
+
+
+/*---------------------fieldset styling-------------------------*/
+@media only screen and (min-width:841px) {
+    .testForm {
+        display: block;
+    }
+}
+@media only screen and (max-width:840px) {
+    .testForm {
+        display: column;
+        margin-bottom: 40px;
+    }
+}
+
+.testForm span {
+    display: block;
+    padding-top: 1rem;
+    font-size: .75rem;
+}
+
+.testForm fieldset {
+    border-radius: 2px;
+    padding: 1rem 2%;
+    width: 95%;
+    box-shadow: 0px 10px 20px -10px #777;
+    background-color: white;
+
+}
+
+.testForm legend {
+    font-size: .8rem;
+}
+
+.testForm .userInput {
+    border-radius: 2px;
+    color: rgb(66, 193, 239);
+    padding: .25rem;
+    font-size: .85rem;
+    width: 30vw;
+    min-width: 285px;
+}
+
+.textEntry {
+    border-radius: 2px;
+    padding: .75rem;
+    color: black;
+    background-color: white;
+    width: 100%;
+    min-height: 15px;
+}
+
+#contactContainer {
+    margin-top: 75px;
+    justify-content: center;
+}
+
+#contact2 {
+    width: 50%;
+}
+
+#contact1 {
+    width: 50%;
+    margin-right: 15px;
+}
